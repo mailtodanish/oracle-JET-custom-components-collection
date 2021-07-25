@@ -1,3 +1,3 @@
 # ojet component 
 
-![alt text](/img/img.png)
+![alt text](/resources/img/img.png)
