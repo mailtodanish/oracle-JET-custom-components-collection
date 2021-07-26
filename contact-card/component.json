@@ -1,0 +1,30 @@
+{
+  "name": "contact-card",
+  "version": "1.0.0",
+  "jetVersion": ">=5.0.0 <7.0.0",
+  "displayName": "contact-card.",
+  "description": "A translatable high-level description for the component.",
+  "properties": {
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "methods": {
+
+  }, 
+  "events": {
+
+  }, 
+  "slots": {
+
+  }
+}

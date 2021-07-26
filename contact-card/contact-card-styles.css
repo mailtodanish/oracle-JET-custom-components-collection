@@ -1,0 +1,17 @@
+/* This file is where css selectors for the component go.
+   There will be hard coded properties and properties controlled by variables, for example
+
+   contact-card .contact-card-value-text {
+   color: var(--contact-card-value-text-color);
+   display: inline-block;
+	 }
+*/
+
+contact-card:not(.oj-complete){
+  visibility: hidden;
+}
+
+contact-card{
+	min-height: 50px;
+	width: 50px;
+}
