@@ -1,0 +1,19 @@
+{
+  "name": "custom-checkbox",
+  "version": "1.0.0",
+  "jetVersion": ">=5.0.0 <7.0.0",
+  "displayName": "checkbox.",
+  "description": "A translatable high-level description for the component.",
+  "properties": {
+
+  },
+  "methods": {
+
+  }, 
+  "events": {
+
+  }, 
+  "slots": {
+
+  }
+}

@@ -1,0 +1,17 @@
+/* This file is where css selectors for the component go.
+   There will be hard coded properties and properties controlled by variables, for example
+
+   custom-checkbox .custom-checkbox-value-text {
+   color: var(--custom-checkbox-value-text-color);
+   display: inline-block;
+	 }
+*/
+
+custom-checkbox:not(.oj-complete){
+  visibility: hidden;
+}
+
+custom-checkbox{
+	min-height: 50px;
+	width: 50px;
+}

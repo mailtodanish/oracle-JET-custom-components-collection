@@ -1,0 +1,30 @@
+<!--
+  Copyright (c) 2015, 2021, Oracle and/or its affiliates.
+  Licensed under The Universal Permissive License (UPL), Version 1.0
+  as shown at https://oss.oracle.com/licenses/upl/
+
+-->
+<p>
+  <oj-bind-text value="[[messageText]]"></oj-bind-text>
+</p>
+<oj-checkboxset id="checkboxSetId" label-hint="Colors" label-edge="inside" value="{{currentColor}}">
+  <oj-bind-for-each data="[[colorOptions]]">
+    <template>
+      <oj-option value="[[$current.data.value]]">
+        <oj-bind-text value="[[$current.data.color]]"></oj-bind-text>
+      </oj-option>
+    </template>
+  </oj-bind-for-each>
+</oj-checkboxset>
+
+<div class="oj-sm-margin-3x-vertical">
+  <oj-label-value>
+    <oj-label slot="label">Current component value is</oj-label>
+    <span slot="value">
+      <oj-bind-text value="[[currentColor]]"></oj-bind-text>
+    </span>
+  </oj-label-value>
+</div>
+<div class="oj-sm-margin-2x-vertical">
+  <oj-button on-oj-action="[[setModelCurrentColorToAquaBlue]]">Reset</oj-button>
+</div>
