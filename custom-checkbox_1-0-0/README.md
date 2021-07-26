@@ -1,5 +1,3 @@
-# ojet component template
+# ojet component 
 
-## Usage
-Refer to the oj.Composite jsdoc
-http://www.oracle.com/webfolder/technetwork/jet/jsdocs/oj.Composite.html
+![alt text](./resources/img/img.png)
