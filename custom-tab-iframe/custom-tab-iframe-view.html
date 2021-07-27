@@ -1,0 +1,30 @@
+<!--
+  Copyright (c) 2015, 2021, Oracle and/or its affiliates.
+  Licensed under The Universal Permissive License (UPL), Version 1.0
+  as shown at https://oss.oracle.com/licenses/upl/
+
+-->
+
+<div id="tabbarcontainer" >
+           
+  <oj-tab-bar selection="{{selectedItem}}" 
+  data="[[dataProvider]]" edge="[[edge]]"  display="[[display]]">
+    <template slot="itemTemplate" data-oj-as="item">
+      <li :class="[[{'oj-disabled' : item.data.disabled === 'true'}]]">
+         <a href="#">
+           <span :class="[['oj-tabbar-item-icon oj-ux-ico-file-web']]"></span>
+           <oj-bind-text value="[[item.data.name]]"> </oj-bind-text>
+         </a>
+       </li>
+    </template>
+  </oj-tab-bar>
+  
+  </div>
+  <!-- <span id="results">
+    <oj-bind-text value="[[selectedItem]]"></oj-bind-text>
+  </span> -->
+  <div class="oj-flex-item" style="padding-top:10px">
+    <iframe allowtransparency="true" style="background-color:#FFFFFF;border:none"
+    data-bind="attr: {src: selectedItem}"
+    width="99%" height="600"></iframe>
+    </div>

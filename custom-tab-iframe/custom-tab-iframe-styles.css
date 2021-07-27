@@ -1,0 +1,17 @@
+/* This file is where css selectors for the component go.
+   There will be hard coded properties and properties controlled by variables, for example
+
+   custom-tab-iframe .custom-tab-iframe-value-text {
+   color: var(--custom-tab-iframe-value-text-color);
+   display: inline-block;
+	 }
+*/
+
+custom-tab-iframe:not(.oj-complete){
+  visibility: hidden;
+}
+
+custom-tab-iframe{
+	min-height: 50px;
+	width: 50px;
+}

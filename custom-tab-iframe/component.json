@@ -1,0 +1,28 @@
+{
+  "name": "custom-tab-iframe",
+  "version": "1.0.0",
+  "jetVersion": ">=5.0.0 <7.0.0",
+  "displayName": "custom-tab-iframe",
+  "description": "dynamically created tab",
+  "properties": {
+    "data": {
+      "type": "array",
+      "writeback": true,
+      "value": [
+        { "name": "erosnow", "url": "https://erosnow.com/" },
+
+        { "name": "indianexpress", "url": "https://indianexpress.com/" }
+
+      ]
+    }
+  },
+  "methods": {
+
+  }, 
+  "events": {
+
+  }, 
+  "slots": {
+
+  }
+}
